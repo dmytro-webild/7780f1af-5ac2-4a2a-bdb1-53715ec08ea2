@@ -12,7 +12,7 @@ import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Award, Coffee, Globe, Leaf, Recycle, Users } from "lucide-react";
+import { Award, Coffee, Globe, Leaf, Recycle, Users, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -47,6 +47,8 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitKpi
+      tag="Premium Craft Coffee"
+      tagIcon={Sparkles}
       background={{
         variant: "gradient-bars"}}
       title="Experience Artisanal Perfection"
@@ -119,7 +121,7 @@ export default function LandingPage() {
         {
           id: "p2",          name: "French Press",          price: "$45",          variant: "Steel",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ready-be-served-coffee-with-sugar_23-2148464004.jpg"},
         {
-          id: "p3",          name: "Handmade Mug",          price: "$18",          variant: "Stoneware",          imageSrc: "http://img.b2bpic.net/free-photo/handmade-cup-books-closeup-wooden-surface-copy-space_169016-46354.jpg"},
+          id: "p3",          name: "Handmade Mug",          price: "$18",          variant: "Stoneware",          imageSrc: "http://img.b2bpic.net/free-photo/handmade-cup-books-closeup-wooden-surface-copy-space_169016-46355.jpg"},
         {
           id: "p4",          name: "Ethiopian Blend",          price: "$22",          variant: "250g",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-beans-container_23-2148173321.jpg"},
         {
