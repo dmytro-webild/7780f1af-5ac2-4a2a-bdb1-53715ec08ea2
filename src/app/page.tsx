@@ -145,7 +145,7 @@ export default function LandingPage() {
             "Fresh Roast",            "Standard Shipping"],
           buttons: [
             {
-              text: "Select Plan"},
+              text: "Start My Subscription"},
           ],
         },
         {
@@ -153,7 +153,7 @@ export default function LandingPage() {
             "Exotic Beans",            "Priority Shipping",            "Brew Guide"],
           buttons: [
             {
-              text: "Select Plan"},
+              text: "Start My Subscription"},
           ],
         },
         {
@@ -161,7 +161,7 @@ export default function LandingPage() {
             "Limited Batches",            "Exclusive Gadgets",            "Free Shipping"],
           buttons: [
             {
-              text: "Select Plan"},
+              text: "Start My Subscription"},
           ],
         },
       ]}
