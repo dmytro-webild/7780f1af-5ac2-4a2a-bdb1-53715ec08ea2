@@ -55,7 +55,7 @@ export default function LandingPage() {
       description="At Cuppio, we source only the finest beans to craft coffee that warms your soul and awakens your spirit."
       buttons={[
         {
-          text: "Shop Now",          href: "#menu"
+          text: "Discover Your Roast",          href: "#menu"
         }
       ]}
       kpis={[
