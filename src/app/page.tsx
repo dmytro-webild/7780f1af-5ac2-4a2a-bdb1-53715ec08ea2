@@ -153,7 +153,7 @@ export default function LandingPage() {
             "Exotic Beans",            "Priority Shipping",            "Brew Guide"],
           buttons: [
             {
-              text: "Get Started Today"},
+              text: "Get Started with Curated Beans"},
           ],
         },
         {
@@ -161,7 +161,7 @@ export default function LandingPage() {
             "Limited Batches",            "Exclusive Gadgets",            "Free Shipping"],
           buttons: [
             {
-              text: "Get Started Today"},
+              text: "Unlock Complete Experience"},
           ],
         },
       ]}
