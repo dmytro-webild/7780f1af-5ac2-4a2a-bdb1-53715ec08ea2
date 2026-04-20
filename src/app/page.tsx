@@ -33,21 +33,13 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Menu",
-          id: "menu",
-        },
+          name: "Menu",          id: "menu"},
         {
-          name: "Testimonials",
-          id: "testimonials",
-        },
+          name: "Testimonials",          id: "testimonials"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Cuppio Coffee"
     />
@@ -56,75 +48,53 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitKpi
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Experience Artisanal Perfection"
       description="At Cuppio, we source only the finest beans to craft coffee that warms your soul and awakens your spirit."
+      buttons={[
+        {
+          text: "Shop Now",          href: "#menu"
+        }
+      ]}
       kpis={[
         {
-          value: "12+",
-          label: "Origin Sourced",
-        },
+          value: "12+",          label: "Origin Sourced"},
         {
-          value: "5k+",
-          label: "Cups Served",
-        },
+          value: "5k+",          label: "Cups Served"},
         {
-          value: "99%",
-          label: "Satisfaction",
-        },
+          value: "99%",          label: "Satisfaction"},
       ]}
       enableKpiAnimation={true}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-hand-pouring-milk-cup_23-2148865583.jpg"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/barista-preparing-beverage_23-2149458092.jpg",
-          alt: "Barista preparing beverage",
-        },
+          src: "http://img.b2bpic.net/free-photo/barista-preparing-beverage_23-2149458092.jpg",          alt: "Barista preparing beverage"},
         {
-          src: "http://img.b2bpic.net/free-photo/barista-making-cappuccino_1150-8043.jpg",
-          alt: "Barista making cappuccino.",
-        },
+          src: "http://img.b2bpic.net/free-photo/barista-making-cappuccino_1150-8043.jpg",          alt: "Barista making cappuccino."},
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-hands-preparing-drink-with-milk_23-2148865605.jpg",
-          alt: "Close-up hands preparing drink with milk",
-        },
+          src: "http://img.b2bpic.net/free-photo/close-up-hands-preparing-drink-with-milk_23-2148865605.jpg",          alt: "Close-up hands preparing drink with milk"},
         {
-          src: "http://img.b2bpic.net/free-photo/barista-is-preparing-coffee-with-milk_140725-8113.jpg",
-          alt: "Barista is preparing coffee with milk",
-        },
+          src: "http://img.b2bpic.net/free-photo/barista-is-preparing-coffee-with-milk_140725-8113.jpg",          alt: "Barista is preparing coffee with milk"},
         {
-          src: "http://img.b2bpic.net/free-photo/barista-preparing-beverage_23-2149458072.jpg",
-          alt: "Barista preparing beverage",
-        },
+          src: "http://img.b2bpic.net/free-photo/barista-preparing-beverage_23-2149458072.jpg",          alt: "Barista preparing beverage"},
       ]}
       avatarText="Join 5,000+ coffee enthusiasts"
       marqueeItems={[
         {
-          type: "text-icon",
-          text: "Ethically Sourced",
-          icon: Leaf,
+          type: "text-icon",          text: "Ethically Sourced",          icon: Leaf,
         },
         {
-          type: "text-icon",
-          text: "Small-Batch Roasts",
-          icon: Coffee,
+          type: "text-icon",          text: "Small-Batch Roasts",          icon: Coffee,
         },
         {
-          type: "text-icon",
-          text: "Expertly Crafted",
-          icon: Award,
+          type: "text-icon",          text: "Expertly Crafted",          icon: Award,
         },
         {
-          type: "text-icon",
-          text: "Carbon Neutral",
-          icon: Recycle,
+          type: "text-icon",          text: "Carbon Neutral",          icon: Recycle,
         },
         {
-          type: "text-icon",
-          text: "Global Partners",
-          icon: Globe,
+          type: "text-icon",          text: "Global Partners",          icon: Globe,
         },
       ]}
     />
@@ -145,47 +115,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "V60 Dripper",
-          price: "$25",
-          variant: "Ceramic",
-          imageSrc: "http://img.b2bpic.net/free-photo/female-barista-holding-coffee-filter-jug_23-2148824462.jpg",
-        },
+          id: "p1",          name: "V60 Dripper",          price: "$25",          variant: "Ceramic",          imageSrc: "http://img.b2bpic.net/free-photo/female-barista-holding-coffee-filter-jug_23-2148824462.jpg"},
         {
-          id: "p2",
-          name: "French Press",
-          price: "$45",
-          variant: "Steel",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ready-be-served-coffee-with-sugar_23-2148464004.jpg",
-        },
+          id: "p2",          name: "French Press",          price: "$45",          variant: "Steel",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ready-be-served-coffee-with-sugar_23-2148464004.jpg"},
         {
-          id: "p3",
-          name: "Handmade Mug",
-          price: "$18",
-          variant: "Stoneware",
-          imageSrc: "http://img.b2bpic.net/free-photo/handmade-cup-books-closeup-wooden-surface-copy-space_169016-46354.jpg",
-        },
+          id: "p3",          name: "Handmade Mug",          price: "$18",          variant: "Stoneware",          imageSrc: "http://img.b2bpic.net/free-photo/handmade-cup-books-closeup-wooden-surface-copy-space_169016-46354.jpg"},
         {
-          id: "p4",
-          name: "Ethiopian Blend",
-          price: "$22",
-          variant: "250g",
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-beans-container_23-2148173321.jpg",
-        },
+          id: "p4",          name: "Ethiopian Blend",          price: "$22",          variant: "250g",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-beans-container_23-2148173321.jpg"},
         {
-          id: "p5",
-          name: "Burr Grinder",
-          price: "$120",
-          variant: "Professional",
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-pot-cup_23-2147693944.jpg",
-        },
+          id: "p5",          name: "Burr Grinder",          price: "$120",          variant: "Professional",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-pot-cup_23-2147693944.jpg"},
         {
-          id: "p6",
-          name: "Wooden Scoop",
-          price: "$12",
-          variant: "Walnut",
-          imageSrc: "http://img.b2bpic.net/free-photo/tool-used-coffee-machine-coffee-making-process_23-2150187518.jpg",
-        },
+          id: "p6",          name: "Wooden Scoop",          price: "$12",          variant: "Walnut",          imageSrc: "http://img.b2bpic.net/free-photo/tool-used-coffee-machine-coffee-making-process_23-2150187518.jpg"},
       ]}
       title="Our Signature Selection"
       description="Hand-picked equipment and beans to elevate your home brewing ritual."
@@ -199,50 +139,27 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "basic",
-          badge: "Weekly",
-          price: "$15/mo",
-          subtitle: "For daily coffee lovers",
-          features: [
-            "Fresh Roast",
-            "Standard Shipping",
-          ],
+          id: "basic",          badge: "Weekly",          price: "$15/mo",          subtitle: "For daily coffee lovers",          features: [
+            "Fresh Roast",            "Standard Shipping"],
           buttons: [
             {
-              text: "Select Plan",
-            },
+              text: "Select Plan"},
           ],
         },
         {
-          id: "pro",
-          badge: "Monthly",
-          price: "$40/mo",
-          subtitle: "Curated selection",
-          features: [
-            "Exotic Beans",
-            "Priority Shipping",
-            "Brew Guide",
-          ],
+          id: "pro",          badge: "Monthly",          price: "$40/mo",          subtitle: "Curated selection",          features: [
+            "Exotic Beans",            "Priority Shipping",            "Brew Guide"],
           buttons: [
             {
-              text: "Select Plan",
-            },
+              text: "Select Plan"},
           ],
         },
         {
-          id: "master",
-          badge: "Annual",
-          price: "$400/yr",
-          subtitle: "Complete experience",
-          features: [
-            "Limited Batches",
-            "Exclusive Gadgets",
-            "Free Shipping",
-          ],
+          id: "master",          badge: "Annual",          price: "$400/yr",          subtitle: "Complete experience",          features: [
+            "Limited Batches",            "Exclusive Gadgets",            "Free Shipping"],
           buttons: [
             {
-              text: "Select Plan",
-            },
+              text: "Select Plan"},
           ],
         },
       ]}
@@ -259,45 +176,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Alice M.",
-          role: "Designer",
-          company: "Studio",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-fairskinned-adult-woman-smiling-looking-camera-while-drinking-coffee-morning-standing-by-window-concept-rest-recovery_197531-31124.jpg",
-        },
+          id: "t1",          name: "Alice M.",          role: "Designer",          company: "Studio",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-fairskinned-adult-woman-smiling-looking-camera-while-drinking-coffee-morning-standing-by-window-concept-rest-recovery_197531-31124.jpg"},
         {
-          id: "t2",
-          name: "Bob K.",
-          role: "Engineer",
-          company: "Tech",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-bearded-man-earphones_171337-4772.jpg",
-        },
+          id: "t2",          name: "Bob K.",          role: "Engineer",          company: "Tech",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-bearded-man-earphones_171337-4772.jpg"},
         {
-          id: "t3",
-          name: "Chloe L.",
-          role: "Writer",
-          company: "Media",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-women-reading-menu-cafe_23-2147785423.jpg",
-        },
+          id: "t3",          name: "Chloe L.",          role: "Writer",          company: "Media",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-women-reading-menu-cafe_23-2147785423.jpg"},
         {
-          id: "t4",
-          name: "David S.",
-          role: "Manager",
-          company: "Retail",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/transparent-word-coffee-background-coffee-beans-mockup-advertising_169016-53812.jpg",
-        },
+          id: "t4",          name: "David S.",          role: "Manager",          company: "Retail",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/transparent-word-coffee-background-coffee-beans-mockup-advertising_169016-53812.jpg"},
         {
-          id: "t5",
-          name: "Elena R.",
-          role: "Architect",
-          company: "Build",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/waitress-serving-cup-coffee-customers_1170-652.jpg",
-        },
+          id: "t5",          name: "Elena R.",          role: "Architect",          company: "Build",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/waitress-serving-cup-coffee-customers_1170-652.jpg"},
       ]}
       title="Customer Stories"
       description="We are proud to serve our community of coffee lovers."
@@ -311,23 +203,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          icon: Coffee,
-          title: "Roasts",
-          value: "150",
-        },
+          id: "m1",          icon: Coffee,
+          title: "Roasts",          value: "150"},
         {
-          id: "m2",
-          icon: Users,
-          title: "Farmers",
-          value: "20",
-        },
+          id: "m2",          icon: Users,
+          title: "Farmers",          value: "20"},
         {
-          id: "m3",
-          icon: Leaf,
-          title: "Bio-degradable",
-          value: "100%",
-        },
+          id: "m3",          icon: Leaf,
+          title: "Bio-degradable",          value: "100%"},
       ]}
       title="Our Impact"
       description="Quality meets sustainability at every step of our process."
@@ -339,20 +222,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "f1",
-          title: "How is coffee sourced?",
-          content: "Ethically and directly from partner farms.",
-        },
+          id: "f1",          title: "How is coffee sourced?",          content: "Ethically and directly from partner farms."},
         {
-          id: "f2",
-          title: "Can I cancel my subscription?",
-          content: "Yes, you can pause or cancel anytime.",
-        },
+          id: "f2",          title: "Can I cancel my subscription?",          content: "Yes, you can pause or cancel anytime."},
         {
-          id: "f3",
-          title: "Shipping times?",
-          content: "3-5 business days for standard orders.",
-        },
+          id: "f3",          title: "Shipping times?",          content: "3-5 business days for standard orders."},
       ]}
       sideTitle="Common Questions"
       sideDescription="Everything you need to know about our beans and brewing gear."
@@ -364,8 +238,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Newsletter"
       title="Stay Connected"
       description="Sign up for coffee tips and roast updates."
@@ -377,29 +250,19 @@ export default function LandingPage() {
       logoText="Cuppio"
       columns={[
         {
-          title: "Shop",
-          items: [
+          title: "Shop",          items: [
             {
-              label: "Beans",
-              href: "#menu",
-            },
+              label: "Beans",              href: "#menu"},
             {
-              label: "Gear",
-              href: "#menu",
-            },
+              label: "Gear",              href: "#menu"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
             {
-              label: "FAQ",
-              href: "#faq",
-            },
+              label: "FAQ",              href: "#faq"},
           ],
         },
       ]}
