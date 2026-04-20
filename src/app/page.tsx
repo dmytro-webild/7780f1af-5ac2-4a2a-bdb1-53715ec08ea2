@@ -149,7 +149,7 @@ export default function LandingPage() {
           ],
         },
         {
-          id: "pro",          badge: "Monthly",          price: "$40/mo",          subtitle: "Curated selection",          features: [
+          id: "pro",          badge: "Recommended",          price: "$40/mo",          subtitle: "Curated selection",          features: [
             "Exotic Beans",            "Priority Shipping",            "Brew Guide"],
           buttons: [
             {
